@@ -6,21 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML FORM</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Intuit</h1>
+    <header>
+        <p id="account">Already have an Intuit account?</p>
+        <a href="#" id="forgot-id">I forgot my User ID or Password</a>
+    </header>
+    <button id="sign-in"> Sign In</button>
+    <a href="#"><h1>Intuit</h1></a>
     <form action="#" method="POST">
         <main class="main">
             <h2>Create an Intuit account</h2>
-            <small>One account for everything Intuit, including Mint. </small>
-            <a href="#">Learn more</a>
-            <label for="email">Email address</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Phone(recommended)</label>
-            <input type="tel" name="phone" id="phone">
-            <small>Standard call, messaging or data rates may apply.</small>
-            <label for="pass">Password</label>
-            <input type="password" name="password" id="pass">
+            <p id="mint">One account for everything Intuit, including Mint. </p>
+            <div class="learn-more">
+                <a href="#">Learn more</a>
+            </div><br>
+            
+            <label for="email">Email address</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="phone">Phone(recommended)</label><br>
+            <input type="tel" name="phone" id="phone"><br>
+            <p id="call-rates">Standard call, messaging or data rates may apply.</p>
+            <label for="pass">Password</label><br>
+            <input type="password" name="password" id="pass"><br>
             <button>Create Account</button>
             <small>By clicking Create account, you agree to our <a href="#">Terms</a> 
                 and have read and acknowledge our <a href="#">Privacy Statement</a>.

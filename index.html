@@ -15,28 +15,41 @@
     </header>
     <button id="sign-in"> Sign In</button>
     <a href="#"><h1>Intuit</h1></a>
+
     <form action="#" method="POST">
         <main class="main">
             <h2>Create an Intuit account</h2>
             <p id="mint">One account for everything Intuit, including Mint. </p>
             <div class="learn-more">
                 <a href="#">Learn more</a>
-            </div><br>
-            
-            <label for="email">Email address</label><br>
-            <input type="email" name="email" id="email"><br>
-            <label for="phone">Phone(recommended)</label><br>
-            <input type="tel" name="phone" id="phone"><br>
-            <p id="call-rates">Standard call, messaging or data rates may apply.</p>
-            <label for="pass">Password</label><br>
-            <input type="password" name="password" id="pass"><br>
-            <button>Create Account</button>
-            <small>By clicking Create account, you agree to our <a href="#">Terms</a> 
-                and have read and acknowledge our <a href="#">Privacy Statement</a>.
-            </small>
-            <div>
-                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
             </div>
+            <fieldset class="set-1">
+                <label>
+                    Email address
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Phone(recommended)
+                    <input type="tel" name="phone">
+                </label>
+
+                <p id="call-rates">Standard call, messaging or data rates may apply.</p>
+                <label>
+                    Password
+                    <input type="password" name="password" id="pass">
+                </label>
+                <label>
+                    <input class="btn" type="submit" name="submit" value="Create Account">
+                </label>
+
+                <p class="term">By clicking Create account, you agree to our <a href="#">Terms</a> 
+                    and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                </p>
+            </fieldset>
+            <fieldset class="set-2">
+                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+            </fieldset>
+                
         </main>
     </form>
     <footer> 

@@ -1,5 +1,5 @@
 html, body {
-    background: #d1d1d1;
+    background: #ECEEF1;
 }
 header {
     position: relative;
@@ -31,12 +31,13 @@ a {
     color:#0077C5;
 }
 .main {
-    width:  400px;
+    width:  380px;
     display: block;
     margin: 0 auto;
     background-color: white;
-    border: 1px solid gray;
-    height: 600px;
+    border: 1px solid #c6c7cc;
+    border-radius: 4px;
+    height: 100%;
 }
 h1 {
     text-align: center;
@@ -62,20 +63,65 @@ h2 {
     margin-top: -16px;
     font-size: 15px;
 }
-label {
-    margin-left: 30px;
-    margin-bottom: 5px;
-    color:rgb(63, 62, 62);
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
+
 input {
-    margin-left: 30px;
+    display: block;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #c6c7cc;
+    width: 95%;
     border-radius: 3px;
-    width: 350px;
-   line-height: 2.3em;
-    border: 1px solid #C1C5C8;
 }
+
+.set-1 {
+    padding: 0 20px 0 20px;
+}
+
+.set-1 label {
+    display: block;
+    margin: 30px 20px;
+    /* font-weight: bold; */
+    color: #7c7c80;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px/1.4;
+}
+
+.btn {
+    width: 100%;
+    background: #0077C5;
+    color: #fff;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px;
+}
+
+.set-2 {
+    background: #ECEEF1;
+    margin: 40px 0 0 0;
+    font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7c7c80;
+    text-align: center;
+    padding: 10px;
+
+}
+
 #call-rates {
-    margin-top: 1px;
+    width: 95%;
+    color: #7c7c80;
+    margin: -30px 20px 20px 20px;
     font-size: 12px;
-    margin-left: 30px;
+} 
+
+.term {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7c7c80;
+    
 }

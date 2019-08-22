@@ -1,11 +1,17 @@
 html, body {
     background: #ECEEF1;
 }
-header {
-    position: relative;
-    top: 5px;
-    left: 800px;
-}
+
+/* /***********/
+/* header
+/************/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 #account {
     font-size: 13px;
     margin-bottom: 2px;
@@ -126,3 +132,23 @@ input {
     color: #7c7c80;
     
 }
+
+.sign-btn {
+    padding: 8px 30px;
+    margin-left: 8px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #0077C5;
+    color: white;
+  }
+
+  #exist {
+    color: #505050;
+    font-size: 13px;
+  }
+  
+  #exist-link {
+    font-size: 13px;
+    text-decoration: none;
+  }

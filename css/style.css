@@ -8,13 +8,7 @@ html, body {
     justify-content: flex-end;
     align-items: center;
   }
-#account {
-    font-size: 13px;
-    margin-bottom: 2px;
-}
-#forgot-id {
-    font-size: 13px;
-}
+
 #sign-in{
     position: relative;
     top: -30px;
@@ -28,10 +22,12 @@ html, body {
     padding: 10px;
     box-shadow: none;
 }
+
 a {
     text-decoration: none;
     color:#0077C5;
 }
+
 .main {
     width:  380px;
     display: block;
@@ -41,6 +37,7 @@ a {
     border-radius: 4px;
     height: 100%;
 }
+
 h1 {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -49,6 +46,7 @@ h1 {
     color: gray;
     
 }
+
 h2 {
     color: #4c4c4c;
     font-size: 24px;
@@ -56,11 +54,13 @@ h2 {
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 350;
 }
+
 #mint {
     text-align: center;
     margin-top: -10px;
     color: rgb(63, 61, 61);
 }
+
 .learn-more {
     text-align: center;
     margin-top: -16px;

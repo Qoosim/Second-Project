@@ -2,10 +2,6 @@ html, body {
     background: #ECEEF1;
 }
 
-/* /***********/
-/* header
-/************/
-
 .container {
     display: flex;
     flex-direction: row;
@@ -51,6 +47,7 @@ h1 {
     font-size: 40px;
     margin-bottom: 10px;
     color: gray;
+    
 }
 h2 {
     color: #4c4c4c;
@@ -92,7 +89,6 @@ input {
 .set-1 label {
     display: block;
     margin: 30px 20px;
-    /* font-weight: bold; */
     color: #7c7c80;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px/1.4;
@@ -151,4 +147,23 @@ input {
   #exist-link {
     font-size: 13px;
     text-decoration: none;
+  }
+   ul {
+      margin-bottom: 2px;
+  } 
+  li {
+      list-style-type: none;
+      display: inline;
+      margin-left: 10px;
+    
+  }
+  footer{
+      text-align: center;
+      font: 14px cursive;
+      color: #7c7c80;
+      margin-top: 40px;
+  }
+  footer p {
+    width: 780px;
+    margin:0 auto;
   }

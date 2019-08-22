@@ -139,12 +139,12 @@ input {
     color: white;
   }
 
-  #exist {
+  .exist {
     color: #505050;
     font-size: 13px;
   }
   
-  #exist-link {
+  .exist-link {
     font-size: 13px;
     text-decoration: none;
   }

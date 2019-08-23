@@ -1,0 +1,177 @@
+html, body {
+    background: #ECEEF1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+a {
+    text-decoration: none;
+    color:#0077C5;
+}
+
+.main {
+    width:  380px;
+    display: block;
+    margin: 15px auto;
+    background-color: white;
+    border: 1px solid #c6c7cc;
+    border-radius: 4px;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.wrapper{
+    margin: 5px auto;
+    width: 420px;
+}
+ 
+img {
+    width: 25px;
+    margin-top: 10px;
+}
+.products {
+    display: inline;
+    cursor: pointer;
+} 
+
+.product-text {
+    position: relative;
+    left: -10px;
+    bottom: 8px;
+    color: #7c7c80;
+    cursor: pointer;
+    font: 1.2em serif;
+}
+
+h2 {
+    color: #4c4c4c;
+    font-size: 24px;
+    text-align: center;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 350;
+}
+
+#mint {
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(63, 61, 61);
+}
+
+.learn-more {
+    text-align: center;
+    margin-top: -16px;
+    font-size: 15px;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #c6c7cc;
+    width: 95%;
+    border-radius: 3px;
+}
+
+.set-1 {
+    padding: 0 20px 0 20px;
+}
+
+.set-1 label {
+    display: block;
+    margin: 30px 20px;
+    color: #7c7c80;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px/1.4;
+}
+
+.btn {
+    width: 100%;
+    background: #0077C5;
+    color: #fff;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.set-2 {
+    background: #ECEEF1;
+    margin: 40px 0 0 0;
+    font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7c7c80;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#call-rates {
+    width: 95%;
+    color: #7c7c80;
+    margin: -30px 20px 20px 20px;
+    font-size: 12px;
+} 
+
+.term {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #7c7c80;
+    
+}
+
+.sign-btn {
+    padding: 8px 30px;
+    margin-left: 8px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #0077C5;
+    color: white;
+  }
+
+  .exist {
+    color: #505050;
+    font-size: 13px;
+  }
+  
+  .exist-link {
+    font-size: 13px;
+    text-decoration: none;
+  }
+   ul {
+      margin-bottom: 2px;
+  } 
+  li {
+      list-style-type: none;
+      display: inline;
+      margin-left: 10px;
+    
+  }
+  footer{
+      text-align: center;
+      font: 14px cursive;
+      color: #7c7c80;
+      margin-top: 40px;
+  }
+  footer p {
+    width: 780px;
+    margin:0 auto;
+  }
